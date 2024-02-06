@@ -22,7 +22,8 @@ def maps(a):
 
 
 # 4. Function that returns an array of integers from n to 1 where n>0
-result = []
+    n > 0
+    result = []
     for i in range(n, 0, -1):
         result.append(i)
     return result
