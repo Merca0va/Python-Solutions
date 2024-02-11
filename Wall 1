@@ -65,12 +65,14 @@ def dna_to_rna(dna):
 # Or
 # return dna.replace('T', 'U')
 
+
 # 8. Function that finds the summation of every number from 1 to num
 def summation(num):
     return sum(range(1, num+1))
 # (The range() function prints a starting value of 0, so the ending value will be i-1.)
 # Or
 #   return (1+num) * num / 2
+
 
 
 # 9. Function that return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers.
